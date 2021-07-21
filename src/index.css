@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Otomanopee+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+.navbar-expand-lg .sticky-top {
+  color: #ffffff;
+}
+.navbar-expand-lg .navbar-backgrnd {
+  color: #cc3333;
+}
+
+.navlist {
+  font-size: 14px;
+  font-family: "Otomanopee One", sans-serif;
+  color: #fff;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 230px;
+  margin-top: 20px;
+}
+.navbar-brand {
+  margin-left: 30px;
+  margin-top: 23px;
+  font-size: 1.5px;
+}
+.home {
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.3rem !important;
+  }
+}
+.header {
+  background-image: radial-gradient(at top left, transparent 67%, #fff 67.5%),
+    linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  background-size: 120% 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 110vh;
+  margin-top: -10px;
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+#navmain {
+  background-image: radial-gradient(at top left, transparent 67%, #fff 67.5%),
+    linear-gradient(43deg, #495ab1 0%, #c850c0 46%, #ffcc70 100%);
+  background-size: 160% 140%;
+  background-repeat: no-repeat;
+}
+
+#img1 {
+  margin-left: 88%;
+  margin-top: -10%;
+  box-shadow: #888888;
+  border-radius: 4%;
+}
+.heading3 {
+  margin-top: 180%;
+}
+.container-hr {
+  margin: 2% 0% 0% 0%;
+  background: lightblue;
+  background-position-y: 100%;
+  background-size: 100%;
+}
+h6 {
+  margin-left: 5%;
+}
+.img-2 {
+  margin: 2% 0% 0% 10%;
+  border-radius: 3%;
+}
+.img-3 {
+  margin: 2% 0% 0% 26%;
+  border-radius: 3%;
+  box-shadow: #888888;
+}
+ul {
+  display: flex;
+  list-style: none;
+
+  margin: auto 60px 55px;
+}
+.container-payroll {
+  padding: 100px;
+
+  background-image: radial-gradient(at bottom left, transparent 67%, #fff 67.5%),
+    linear-gradient(43deg, #4158d0 0%, #0400ff 46%, #d84f25 100%);
+  background-size: 130% 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.part {
+  padding: 8px 0px;
+  background-color: #cbecfa;
+}
+
+.head {
+  height: 20px;
+  width: 300px;
+  padding: 2px 2px;
+  background-color: #9487e5;
+  margin: 5px 0px;
+  margin-top: 45px;
+  margin-bottom: 18px;
+}
+
+.us {
+  margin: -25px -36px;
+  margin-left: 160px;
+  padding: 0px 2px;
+  font-size: 40px;
+}
+
+/* #message{
+    display: flex;
+} */
+
+/* .box{
+    margin: 2px 2px;
+    padding: 2px 2px;
+    border: 2px solid red;
+    background-color: white;
+} 
+*/
+.card2 {
+  margin: -16px 0px;
+}
+
+.card1 {
+  margin: 2px 2px;
+}
+.box {
+  display: inline-block;
+  /* height: 100px; 
+    width: 100px; */
+  background: tomato;
+  border: 2px solid black;
+  margin: 3px;
+  padding: 15px 5px;
+}
+
+.message {
+  display: grid;
+  grid-template-columns: repeat(4, 180px 180px 180px 180px);
+  grid-gap: 0rem 5rem;
+  margin: 70px 0px;
+  margin-left: 145px;
+  margin-right: 115px;
+}
+
+.box-color {
+  background-color: rgb(255 250 250);
+  padding: 0px 17px;
+  border: 2px solid #dbdbdb;
+  height: 350px;
+}
